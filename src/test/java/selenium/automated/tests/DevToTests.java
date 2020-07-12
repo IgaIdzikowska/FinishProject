@@ -50,7 +50,7 @@ public class DevToTests {
     }
 
     @Test
-    public void GoToWeek() {
+    public void GoToWeekAdOpenFirstPost() {
         WebElement week = driver.findElement(By.cssSelector("#on-page-nav-controls > div > nav > a:nth-child(2)"));
         //znalezienie elemnetu week na stronie
         HighlightElement(week); //podswietlnie elementu week
